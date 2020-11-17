@@ -2,11 +2,13 @@
 
 set ./config/dev.env
 
- PORT=3000
- SENDGRID_API_KEY=<secret>
- JWT_SECRET=<secret>
- MONGODB_URL=mongodb://127.0.0.1:27017/task-manager-api
- 
+	PORT=3000
+	SENDGRID_API_KEY=<secret>
+	JWT_SECRET=<secret>
+	MONGODB_URL=mongodb://127.0.0.1:27017/task-manager-api
+
+then npm run dev
+	 
 for production, set
 
 	heroku config:set SENDGRID_API_KEY=<secret>
